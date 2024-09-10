@@ -7,13 +7,16 @@ public class ContaTerminal {
 
        System.out.println("Por favor digite o seu nome");
        conta.setNomeCliente(scanner.nextLine());
+      
 
        System.out.println("Por favor digite o numero de sua Conta");
        conta.setNumero(scanner.nextInt());
        scanner.nextLine();
+     
 
        System.out.println("Por favor digite o numero de sua Agencia");
        conta.setAgencia(scanner.nextLine());
+     
 
        System.out.println("Por favor digite o numero de seu saldo");
        conta.setSaldo(scanner.nextDouble());
